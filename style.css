@@ -355,14 +355,29 @@ main{
   }
   .future{
     width: 400px;
-    height: 1250px;
-    margin: 40px 20px;
+    height: 1300px;
+    margin: 20px 10px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 0px 0px;
   }
   .youtube{
     margin: 0px 0px;
     max-width: 400px;
     max-height: 393px;
+  }
+
+
+
+  /* nes */
+
+  .alex{
+    max-width: 400px;
+    height: 483px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px 10px;
+    padding: 15px 5px;
   }
 }
