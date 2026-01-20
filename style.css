@@ -13,6 +13,11 @@ button{
     margin: 0 50px;
     border-bottom: 0.1px solid #2b2335;
 }
+.hum{
+    visibility: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 #new{
     /* margin-left: 946px;
     
@@ -28,6 +33,7 @@ button{
     border-color: #2dc47d;
 }
 ul{
+    margin-left: 90px;
     display: flex;
     gap: 4rem;
 }
@@ -275,3 +281,88 @@ main{
     grid-template-rows: repeat(1,1fr);
     gap: 10px;
 } */
+
+
+@media screen and (max-width: 576px) {
+    .navbar ul , #sub{
+        display: none;
+    }
+    .hum{
+        visibility:visible;
+    }
+    .hero{
+        max-width: 440px;
+        max-height: 466px;
+        background-size: contain;
+    }
+    .content{
+        width: 400px;
+         height: 386px;
+    }
+    .about .content-2{
+        width: 440px;
+        height: 575px;
+        margin: 70px 10px;
+        padding: 0px 0px;
+    }
+    #hhh{
+     font-size: 30px;
+     text-align: center;
+     width: 400px;
+     height: 39px;
+    }
+    #ph{
+        width: 400px;
+        height: 152px;
+    }
+    .sm-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+/* NEW */
+.card-1{
+    max-width: 400px;
+    max-height: 287px;
+    padding: 0 0;
+}
+.card-1 > h1{   font-size: 20px;
+}
+  main{
+    max-width: 440px;
+    max-height: 1450px;
+    /* display: grid;
+    grid-template-columns: repeat(1); */
+    /* grid-template-rows: repeat(5); */
+    grid-template-areas: 
+    "headphone"
+    "mobile"
+    "loction"
+    "png" 
+    "book";
+    margin: 10px 5px;
+    padding: 10px 5px;
+  }
+  #you{
+    font-size: 30px;
+  }
+
+  /* next */
+  #fh{
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 0px;
+  }
+  .future{
+    width: 400px;
+    height: 1250px;
+    margin: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .youtube{
+    margin: 0px 0px;
+    max-width: 400px;
+    max-height: 393px;
+  }
+}
