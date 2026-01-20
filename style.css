@@ -227,3 +227,37 @@ main{
     border-radius: 50%;
     border: 0.20PX solid #2b2335;
 }
+
+
+
+.foot{
+    background-image: url(assets/footer-bg.png);
+    max-width:1800px; 
+    max-height: 512px;
+    background-size: 100% 100%;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+   
+}
+.love , #love, #lp{
+    text-align: center;
+       gap: 20px;
+}
+
+#love{
+   font-weight: 900;
+   font-size: 62px;
+}
+
+.fcontent{
+     padding-top: 120px;
+     padding-bottom: 120px;
+}
+    
+/* .love{
+    display: grid;
+    grid-template-columns: repeat(4, ifr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 10px;
+} */
