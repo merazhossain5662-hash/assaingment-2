@@ -13,6 +13,20 @@ button{
     margin: 0 50px;
     border-bottom: 0.1px solid #2b2335;
 }
+#new{
+    /* margin-left: 946px;
+    
+    margin-top: 300PX;
+    text-align: center; */
+    position: absolute;
+    margin-bottom: 490px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #2dc47d;
+    padding: 8px 16px;
+    border-radius: 16px;
+    border-color: #2dc47d;
+}
 ul{
     display: flex;
     gap: 4rem;
@@ -43,7 +57,7 @@ ul li{
 }
 .image{
     background-image: url(assets/hero-circle.png);
-    /* position: relative; */
+    position: relative;
     background-size: cover;
     width: 350px;
     height: 350px;
@@ -72,7 +86,7 @@ ul li{
 .hero{
     min-width: 1600PX;
     max-height: 760PX;
-   
+   position: relative;
     background-image: url(assets/hero-bg.png);
     /* background: url(assets/hero-circle.png ) , url(assets/microphone.png); */
     background-size: 100% 100%;
